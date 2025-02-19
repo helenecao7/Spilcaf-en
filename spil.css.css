@@ -1,0 +1,38 @@
+#frame
+{
+    width: 393px;
+    height: 852px;
+    background-color: #AF2C27;
+    position: relative;
+}
+header
+{
+    width: 393px;
+    height: 66px;
+    background-color: #ffffff;
+}
+header img
+{
+    width: -webkit-fill-available;
+}
+
+footer img
+{
+    width: -webkit-fill-available;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+header {
+        display: flex;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+}
+
+main img {
+    display: block;
+    margin-left: 0; /* Skubber billedet helt til venstre */
+    width: 100%; /* Justér hvis nødvendigt */
+}
