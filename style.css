@@ -1,0 +1,16 @@
+.wrapper {
+  width:393px;
+  height: 852px;
+  background-color: red;
+}
+
+.main {
+    background-color: red;
+
+}
+
+header {
+    background-color:white;
+    height:100px;
+    border: solid 1px black;
+}
