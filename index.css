@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.frame {
+  height: 852px;
+  width: 393px;
+  background-color: #8a271c;
+  position: relative;
+}
+
+/* Header */
+
+header {
+  height: 66px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 55px;
+  padding-right: 37px;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Main */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: calc(852px - 66px);
+}
+
+.content > img {
+  max-width: 210px;
+}
+
+.content > button {
+  background-color: #e8d9c2;
+  border-radius: 8px;
+  padding: 8px 24px;
+  border: 1px solid white;
+  font-size: 28px;
+  font-weight: 700;
+  transform: smooth;
+  transition: background-color 0.3s, scale 0.3s;
+}
+
+.content > button:hover {
+  background-color: #f1bc77;
+  scale: 1.1;
+}
+
+/* Footer */
+
+footer {
+  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer img {
+  position: absolute;
+  bottom: 0;
+}
