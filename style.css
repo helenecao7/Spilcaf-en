@@ -1,16 +1,26 @@
-.wrapper {
-  width:393px;
-  height: 852px;
-  background-color: red;
+#frame
+{
+    width: 393px;
+    height: 852px;
+    background-color: #AF2C27;
+    position: relative;
+}
+header
+{
+    width: 393px;
+    height: 66px;
+    background-color: #ffffff;
+}
+header img
+{
+    width: -webkit-fill-available;
 }
 
-.main {
-    background-color: red;
-
-}
-
-header {
-    background-color:white;
-    height:100xx½px;
-    border: solid 1px black;
+footer img
+{
+    width: -webkit-fill-available;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
