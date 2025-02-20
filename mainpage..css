@@ -25,6 +25,7 @@ main {
 }
 
 header {
+  background-color: white;
   height: 66px;
   align-content: center;
 }
